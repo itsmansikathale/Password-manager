@@ -1,9 +1,12 @@
 import "./App.css";
+import Manager from "./components/Manager";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <>
-      <h1 class="text-3xl font-bold underline">Hello Darling!</h1>
+      <Navbar />
+      <Manager />
     </>
   );
 }
